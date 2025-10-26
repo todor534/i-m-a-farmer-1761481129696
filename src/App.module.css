@@ -1,0 +1,50 @@
+.appBg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #232526 0%, #202020 100%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem 1rem 2rem;
+  background: rgba(12, 28, 10, 0.93);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #b5e853;
+  letter-spacing: 1px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLinks a {
+  font-size: 1rem;
+  color: #f3f3f3;
+  transition: color 0.2s;
+}
+
+.navLinks a:hover {
+  color: #b5e853;
+}
+
+.footer {
+  padding: 1.2rem 2rem 2rem 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #b5e853;
+  margin-top: auto;
+  background: rgba(12, 28, 10, 0.85);
+  letter-spacing: 0.5px;
+}
