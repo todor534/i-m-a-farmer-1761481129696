@@ -1,0 +1,134 @@
+.productPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 1rem 1rem 1rem;
+}
+
+.productDetail {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  background: #182214;
+  border-radius: 1.1rem;
+  box-shadow: 0 2px 18px 0 rgba(181,232,83,0.09);
+  padding: 2.3rem 2rem;
+}
+
+.productImg {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 1rem;
+  background: #232526;
+  box-shadow: 0 2px 14px 0 rgba(0,0,0,0.17);
+}
+
+.productText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  color: #f3f3f3;
+}
+
+.productText h1 {
+  font-size: 2rem;
+  color: #b5e853;
+  margin: 0;
+}
+
+.desc {
+  font-size: 1.1rem;
+  color: #e3ffe1;
+  margin-bottom: 0.3rem;
+}
+
+.benefits {
+  margin: 0.5rem 0 0.7rem 1.2rem;
+  padding: 0;
+  color: #b5e853;
+  font-size: 1.05rem;
+}
+
+.benefits li {
+  margin-bottom: 0.2rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.7rem 1.8rem;
+  background: #b5e853;
+  color: #232526;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  transition: background 0.18s, color 0.18s;
+}
+
+.cta:hover {
+  background: #d7fa82;
+  color: #0e1808;
+}
+
+.backLink {
+  color: #b5e853;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  text-decoration: underline;
+  align-self: flex-start;
+}
+
+.orderSection {
+  max-width: 700px;
+  width: 100%;
+  background: #202b17;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);
+  text-align: center;
+  color: #f3f3f3;
+}
+
+.orderSection h2 {
+  color: #b5e853;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+}
+
+.contactInfo a {
+  color: #b5e853;
+  text-decoration: underline;
+  font-size: 1.08rem;
+}
+
+.notFound {
+  text-align: center;
+  margin: 4rem auto;
+  color: #e3ffe1;
+}
+
+@media (max-width: 900px) {
+  .productDetail {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.3rem 0.8rem;
+  }
+  .productImg {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
